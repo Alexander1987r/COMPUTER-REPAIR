@@ -1,0 +1,174 @@
+.reviews {
+  padding: 28px 0 74px 0;
+}
+.reviews__title {
+  margin-bottom: 26px;
+}
+
+/*Общие стили*/
+/* Обертка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов*/
+.slick-track{
+  display: flex;
+}
+/*конкретные стили под нужный слайдер*/
+.slider{
+  position: relative;
+}
+.slider .slick-slide{
+  border: 2px solid var(--130);
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 8px 5px 8px 6px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+  color: var(--130);
+  margin-right: 2px;
+  margin-left: 2px;
+
+}
+.slider__item.slick-slide .slider__image{
+ width: 54px;
+ height: 54px;
+ margin-right: 20px;
+}
+.slider__item.slick-slide .slider__title{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.slider__item.slick-slide .slider__text{
+ font-weight: 400;
+ font-size: 14px;
+}
+.slider .slick-arrow{
+  position: absolute;
+  bottom: -74px;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid var(--glavnaya);
+  font-size: 0;
+  background-color: var(--glavnaya);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./../images/reviews/slider-arrow.svg);
+}
+.slider .slick-arrow.slick-prev{
+  left: 50%;
+  transform: translateX(-160%);
+}
+.slider .slick-arrow.slick-next{
+  right: 50%;
+  transform: rotate(180deg) translateX(-145%);
+ }
+ .slider .slick-arrow.slick-disabled{
+  background-color: transparent;
+  background-image: url(./../images/reviews/slide-arrow-dis.svg);
+ }
+@media(min-width:768px){
+  .reviews {
+    padding: 64px 0 80px 0;
+  }
+  .reviews__title {
+    margin-bottom: 38px;
+  }
+  .slider{
+    max-width: 1356px;
+    margin: 0 auto;
+  }
+  .slider .slick-slide{
+    padding: 29px;
+    align-items: center;
+    min-height: 438px;
+  }
+  .slider__item.slick-slide .slider__image{
+    width: 144px;
+    height: 144px;
+    margin-right: 28px;
+   }
+   .slider__item.slick-slide .slider__title{
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .slider__item.slick-slide .slider__text{
+    font-size: 20px;
+   }
+   .slider .slick-arrow{
+    bottom: -80px;
+  }
+}
+@media(min-width:1920px){
+  .reviews {
+    padding: 94px 0 0px 0;
+  }
+  .reviews__title {
+    margin-bottom:64px;
+  }
+  .slider .slick-slide{
+    padding: 64px 167px 64px 64px;
+    min-height: 328px;
+  }
+  .slider__item.slick-slide .slider__image{
+    width: 164px;
+    height: 164px;
+    margin-right: 64px;
+   }
+   .slider .slick-arrow{
+    bottom:50%;
+    width: 46px;
+    height: 46px;
+  }
+  .slider .slick-arrow.slick-prev{
+    left: -102px;
+    transform: translate(0,50%);
+  }
+  .slider .slick-arrow.slick-next{
+    right: -130px;
+    transform: rotate(180deg) translate(0,-50%) ;
+   }
+
+
+   /* Точки (булиты) */
+.slider .slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.slider .slick-dots li{
+  margin-right: 14px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #606062;
+}
+
+/* Активна точка */
+.slider .slick-dots li.slick-active{
+  width: 42px;
+  background:#013b80;
+  border-radius: 10px;
+}
+
+/* Елемент точки */
+.slick-dots li button{
+  font-size: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+.popup {
+  position: fixed;
+  inset: 0;
+  z-index:2;
+  background-color:rgba(68,68,68,0.9);
+  display: none;
+}
+.popup__wrapper {
+  background-color: var(--ak);
+  border-radius: 24px;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 320px;
+  margin: 0 auto;
+  padding: 28px 16px 16px 16px;
+  color: var(--130);
+}
+.popup__title {
+  margin-bottom: 28px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.popup__form-label{
+ margin-bottom: 18px;
+}
+.error-order input{
+ outline: 2px solid red;
+ border-radius: 8px;
+}
+.error-order__label{
+ color: red;
+ font-size: 12px;
+ margin-top: 10px;
+}
+.popup__form-input {
+ border: 1px solid var(--110);
+ border-radius: 8px;
+
+ font-weight: 500;
+ font-size: 14px;
+ color: var(--110);
+ padding: 10.5px 5px 10.5px 10.5px;
+ width: 100%;
+}
+.popup__form-text {
+    margin-bottom: 28px;
+    padding: 10.5px 5px 46px 10.5px;
+}
+.popup__form-submit {
+ font-weight: 600;
+ font-size: 20px;
+ text-align: center;
+ color: var(--ak);
+ background-color: var(--glavnaya);
+ border-radius: 8px;
+ padding:12px 0;
+ width: 100%;
+}
+.popup__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+/*поп ап успешной отправки*/
+.popup-success .popup__wrapper {
+  padding: 124px 15px 100px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--130);
+  border-radius: 12px;
+  width: 320px;
+}
+.popup-success__icon {
+ width: 48px;
+ height: 48px;
+ margin: 0 auto 16px auto;
+}
+.popup-success__text {
+}
+@media(min-width:768px){
+  .popup__wrapper {
+        width: 664px;
+   }
+  .popup__title {
+        font-size: 35px;
+   }
+  .popup__form-input {
+       border-radius: 12px;
+       font-weight: 400;
+       font-size: 16px;
+       padding: 16px 5px 16px 16px;
+   }
+   .popup__form-text {
+      padding: 16px 5px 150px 16px;
+   }
+   .popup__form-submit {
+     border-radius: 16px;
+     padding:21px 0;
+   }
+   .popup__close {
+        width: 42px;
+        height: 42px;
+   }
+   .popup__close-icon{
+        width: 42px;
+        height: 42px;
+   }
+   /*поп ап успешной отправки*/
+   .popup-success .popup__wrapper {
+ font-size: 28px;
+ border-radius: 24px;
+ width: 664px;
+   }
+.popup-success__icon {
+width: 98px;
+height: 98px;
+margin: 0 auto 16px auto;
+}
+}

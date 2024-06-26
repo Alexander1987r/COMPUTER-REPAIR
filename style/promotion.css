@@ -1,0 +1,48 @@
+.promotion {
+  background: var(--temnyy);
+  color: var(--ak);
+  font-weight: 600;
+  font-size: 20px;
+  padding: 14px 0;
+}
+.promotion__block {
+  display: flex;
+  align-items: center;
+}
+.promotion__image {
+ outline: 1px solid;
+ width: 77px;
+ height: 49px;
+ margin-right: 20px;
+}
+.promotion__text {
+  min-width: 220px;
+  max-width: 250px;
+}
+@media(min-width:768px){
+  .promotion {
+    font-size: 36px;
+    padding:  41px 0;
+  }
+  .promotion__image {
+   width: 184px;
+   height: 117px;
+   margin-right:50px;
+  }
+  .promotion__text {
+    max-width: 100%;
+  }
+}
+@media(min-width:1920px){
+  .promotion__block{
+    margin-left: 120px;
+  }
+  .promotion {
+    font-size: 48px;
+    padding:   0;
+  }
+  .promotion__image {
+   width: 245px;
+   height: 156px;
+  }
+}

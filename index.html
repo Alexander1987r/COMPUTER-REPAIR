@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg+xml" href="./images/icon.svg" />
+    <link rel="icon" type="image/png" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <title>COMPUTER REPAIR</title>
+</head>
+<body>
+ <header class="header">
+  <div class="container header__container">
+     <a class="logo" href="#">
+      <img class="logo__image" src="images/header/logo.svg" alt="logo" width="42" height="42">
+      <span class="logo__text">
+        COMPUTER REPAIR
+      </span>
+     </a>
+     <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link navigation__link_active" href="#">
+            Главная
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about">
+            О нас
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#serv">
+            Наши услуги
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#review">
+            Отзывы
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#works">
+            График работы
+          </a>
+        </li>
+      </ul>
+      <div class="mobil">
+        <ul class="mobil__list">
+          <li class="mobil__item">
+            <a class="mobil__link mobil__link_active" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="mobil__item">
+            <a class="mobil__link" href="#about">
+              О нас
+            </a>
+          </li>
+          <li class="mobil__item">
+            <a class="mobil__link" href="#serv">
+              Наши услуги
+            </a>
+          </li>
+          <li class="mobil__item">
+            <a class="mobil__link" href="#review">
+              Отзывы
+            </a>
+          </li>
+          <li class="mobil__item">
+            <a class="mobil__link" href="#works">
+            График работы
+            </a>
+          </li>
+        </ul>
+        <div class="mobil__social">
+          <a class="mobil__social-link" href="#">
+          </a>
+          <a class="mobil__social-link mobil__social-link_inst" href="#">
+          </a>
+          <a class="mobil__social-link mobil__social-link_teleg" href="#">
+          </a>
+        </div>
+        <div class="mobil__contacts">
+          <span class="mobil__contacts-address">
+            Город Люберцы, бульвар Будапештсткая, 79
+          </span>
+          <a class="mobil__contacts-phone" href="tel:966700550220">
+            +966 700 550 220
+          </a>
+          <a class="mobil__contacts-email" href="#">
+            gropiloippeillo-4757@yopmail.com
+          </a>
+        </div>
+      </div>
+     </nav>
+     <a class="header__phone" href="tel:966700550220">
+      +966 700 550 220
+     </a>
+     <button class="header__button" type="button">
+      <span class="header__button-decor"></span>
+     </button>
+  </div>
+ </header>
+
+<main class="main">
+
+  <section class="promo">
+    <div class="container">
+      <div class="promo__inner">
+        <h1 class="promo__title title">
+          РЕМОНТ КОМПЬЮТЕРОВ <span>БЫСТРО</span>
+          И <span>КАЧЕСТВЕННО</span>
+        </h1>
+        <picture class="promo__picture">
+          <source srcset="images/promo/image-desk.png" media="(min-width:1920px)">
+          <source srcset="images/promo/image-tablet.png" media="(min-width:768px)">
+          <img class="promo__image" src="images/promo/image.png" alt="Photo" width="360" height="216">
+        </picture>
+      </div>
+      <button class="promo__button button-order buttons-order" type="button">Оставить заявку</button>
+      <ul class="promo__list">
+        <li class="promo__item promo__item_first">
+          Опыт и <br> профессионализм
+        </li>
+        <li class="promo__item promo__item_second">
+          Гарантия на <br> работу
+        </li>
+        <li class="promo__item promo__item_third">
+          Онлайн <br> помощь
+        </li>
+        <li class="promo__item promo__item_four">
+          Честность и <br> прозрачность
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="about__title title-section">
+        О нас
+      </h2>
+    <div class="about__inner">
+      <picture>
+        <source srcset="images/about/image-desk.jpg" media="(min-width:1920px)">
+        <source srcset="images/about/image-tablet.jpg" media="(min-width:768px)">
+        <img class="about__image" src="images/about/image.jpg" alt="photo" width="320" height="170">
+      </picture>
+      <div class="about__content">
+        <p class="about__text">
+          Добро пожаловать в Мир ремонтов !
+          <span>
+            Мы – команда профессионалов с 12-летним опытом в ремонте и обслуживании компьютеров. Наши услуги включают диагностику, ремонт, модернизацию и настройку программного обеспечения. Мы гарантируем быстрое и качественное обслуживание по доступным ценам.
+          </span>
+        </p>
+        <button class="about__button button-order buttons-order" type="button">
+          Оставить заявку
+        </button>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="serv">
+    <div class="container">
+     <h2 class="services__title title-section">
+      Наши услуги
+     </h2>
+     <ul class="services__list">
+      <li class="services___item">
+        <h3 class="services___item-title">
+          Компьютер сильно тормозит
+        </h3>
+        <p class="services___item-description">
+          Компьютер работает медленно, долго открывает программы и файлы.
+        </p>
+        <div class="services___item-cart">
+          Возможно это происходит из-за перегрева или вирусов в системе.
+        </div>
+        <span class="services___item-time">Время устранения до 30 минут</span>
+        <b class="services___item-price">
+          Стоимость от 350 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+      <li class="services___item services___item_size">
+        <h3 class="services___item-title">
+          Не включается совсем
+        </h3>
+        <p class="services___item-description">
+          Не запускается, не загораются лампочки на панели ПК
+        </p>
+        <div class="services___item-cart">
+          Частая причина вышедший из строя блок питания. Поможет пайка компонентов или замена узла.
+        </div>
+        <span class="services___item-time">
+          Время устранения до 30 минут
+        </span>
+        <b class="services___item-price">
+          Стоимость от 350 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+      <li class="services___item">
+        <h3 class="services___item-title">
+          Неполадки с изображением
+        </h3>
+        <p class="services___item-description">
+          На экране появляются разноцветные помехи, искажается картинка.
+        </p>
+        <div class="services___item-cart">
+          Проблема кроется с неисправной видеокартой. Обычно это вызвано перегревом компонента или заводским браком.
+        </div>
+        <span class="services___item-time">
+          Время устранения до 60 минут
+        </span>
+        <b class="services___item-price services___item-price_bottom">
+          Стоимость от 350 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+      <li class="services___item services___item_display">
+        <h3 class="services___item-title">
+          На компьютер, ноутбук пролили воду
+        </h3>
+        <p class="services___item-description">
+          На плату или другую часть компьютера попала жидкость.
+        </p>
+        <div class="services___item-cart">
+          Устранить бесследно проблемы можно, но только если устройство сразу отключили от сети
+        </div>
+        <span class="services___item-time">
+          Время устранения до 40 минут
+        </span>
+        <b class="services___item-price">
+          Стоимость от 400 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+      <li class="services___item services___item_display">
+        <h3 class="services___item-title">
+          Не работает подключение к Интернету
+        </h3>
+        <p class="services___item-description">
+          Не открываются страницы в браузере.
+        </p>
+        <div class="services___item-cart">
+          Одна из причин не настроено подключение или отсутствие драйверов для сетевой карты.
+        </div>
+        <span class="services___item-time">
+          Время устранения до 20 минут
+        </span>
+        <b class="services___item-price">
+          Стоимость от 299 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+      <li class="services___item services___item_display">
+        <h3 class="services___item-title">
+          Порвался один из проводов компьютера
+        </h3>
+        <p class="services___item-description">
+          Порван, погрызан питомцем или поврежден дверью.
+        </p>
+        <div class="services___item-cart">
+          Поможет замена неисправного кабеля. Всегда в наличии.
+        </div>
+        <span class="services___item-time">
+          Время устранения до 4 минут
+        </span>
+        <b class="services___item-price">
+          Стоимость от 199 руб.
+        </b>
+        <button class="services___item-button button-serv buttons-order" type="button">
+          Заказать диагностику
+        </button>
+      </li>
+     </ul>
+      <a class="services___link" href="services.html">
+        Посмотреть еще
+      </a>
+    </div>
+  </section>
+  <section class="steps" >
+    <div class="container">
+      <h2 class="steps__title title-section">
+        Шаги работы
+      </h2>
+      <ul class="steps__list">
+        <li class="steps__item steps__item_1">
+          <div class="steps__item-title">
+            <span>1 шаг</span>
+            Заявка
+          </div>
+          <p class="steps__item-text">
+            Мы Вам перезваниваем и согласовываем время приезда мастера
+          </p>
+        </li>
+        <li class="steps__item steps__item_2">
+          <div class="steps__item-title">
+            <span>2 шаг</span>
+            Диагностика
+          </div>
+          <p class="steps__item-text">
+            Мастер выявляет причину неисправности комютера или ноутбука
+          </p>
+        </li>
+        <li class="steps__item steps__item_3">
+          <div class="steps__item-title">
+            <span>3 шаг</span>
+            Ремонт
+          </div>
+          <p class="steps__item-text">
+            Мастер ремонтирует комютер или ноутбук у Вас дома либр в сервисе
+          </p>
+        </li>
+        <li class="steps__item steps__item_4">
+          <div class="steps__item-title">
+            <span>4 шаг</span>
+            Результат
+          </div>
+          <p class="steps__item-text">
+            ВЫ проверяете технику и получаете готовое оборудование
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <aside class="promotion">
+  <div class="container">
+    <div class="promotion__block">
+      <img class="promotion__image" src="images/10.png" alt="Photo" width="77" height="49">
+      <p class="promotion__text">
+        Оформи заказ онлайн и получи скидку 10%
+      </p>
+     </div>
+  </div>
+  </aside>
+  <section class="reviews" id="review">
+    <div class="container">
+      <h2 class="reviews__title title-section">
+        Наши отзывы
+      </h2>
+      <div class="slider">
+        <div class="slider__item">
+          <img class="slider__image" src="images/reviews/slider-image.svg" alt="Photo" width="54" height="54">
+          <div class="slider__content">
+            <p class="slider__title">
+              Дмитрий Петров
+            </p>
+            <div class="slider__text">
+              "Недавно обратился в этот сервис по ремонту компьютеров, и остался очень доволен! Процесс оформления заказа через сайт был простым и удобным, а также порадовала 10% скидка. Специалисты быстро и качественно починили мой компьютер,  ответили на все вопросы и дали полезные  советы по дальнейшему уходу.
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="images/reviews/slider-image.svg" alt="Photo" width="54" height="54">
+          <div class="slider__content">
+            <p class="slider__title">
+              Дмитрий Петров
+            </p>
+            <div class="slider__text">
+              "Недавно обратился в этот сервис по ремонту компьютеров, и остался очень доволен! Процесс оформления заказа через сайт был простым и удобным, а также порадовала 10% скидка. Специалисты быстро и качественно починили мой компьютер, ответили на все вопросы и дали полезные советы по дальнейшему уходу.
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img class="slider__image" src="images/reviews/slider-image.svg" alt="Photo" width="54" height="54">
+          <div class="slider__content">
+            <p class="slider__title">
+              Дмитрий Петров
+            </p>
+            <div class="slider__text">
+              "Недавно обратился в этот сервис по ремонту компьютеров, и остался очень доволен! Процесс оформления заказа через сайт был простым и удобным, а также порадовала 10% скидка. Специалисты быстро и качественно починили мой компьютер, ответили на все вопросы и дали полезные советы по дальнейшему уходу.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="questions">
+  <div class="container">
+    <h2 class="questions__title title-section">
+      Часто задаваемые вопросы
+    </h2>
+    <p class="questions__subtitle">
+      Отвечаем на самые,волнующие наших клиентов, вопросы
+    </p>
+
+    <div class="questions__inner">
+      <ul id="my-accordion" class="accordion">
+        <li>
+          <div class="accordion__title">
+            А цена фиксированнная ?
+            <button class="accordion__title-button" type="button"></button>
+          </div>
+          <div class="accordion__text">
+            Все цены зафиксированы, а при оформлении заказа через наш сайт вы получаете скидку 10%.
+          </div>
+        </li>
+        <li>
+          <div class="accordion__title">
+            А цена фиксированнная ?
+            <button class="accordion__title-button" type="button"></button>
+          </div>
+          <div class="accordion__text">
+            Все цены зафиксированы, а при оформлении заказа через наш сайт вы получаете скидку 10%.
+          </div>
+        </li>
+        <li>
+          <div class="accordion__title">
+            А цена фиксированнная ?
+            <button class="accordion__title-button" type="button"></button>
+          </div>
+          <div class="accordion__text">
+            Все цены зафиксированы, а при оформлении заказа через наш сайт вы получаете скидку 10%.
+          </div>
+        </li>
+        <li>
+          <div class="accordion__title">
+            А цена фиксированнная ?
+            <button class="accordion__title-button" type="button"></button>
+          </div>
+          <div class="accordion__text">
+            Все цены зафиксированы, а при оформлении заказа через наш сайт вы получаете скидку 10%.
+          </div>
+        </li>
+        <li>
+          <div class="accordion__title">
+            А цена фиксированнная ?
+            <button class="accordion__title-button" type="button"></button>
+          </div>
+          <div class="accordion__text">
+            Все цены зафиксированы, а при оформлении заказа через наш сайт вы получаете скидку 10%.
+          </div>
+        </li>
+      </ul>
+
+      <div class="questions__form" id="works">
+       <p class="questions__form-title">
+        Остались вопросы?
+       </p>
+       <span class="questions__form-text">
+        Мы рады ответить на любой Ваш вопрос, выслушать Ваше предложение.
+       </span>
+       <form class="form" action="" method="post" autocomplete="off">
+         <div class="form__label" >
+          <input class="form__input" type="text" name="name" placeholder="Ваше имя*">
+         </div>
+         <div class="form__label">
+          <input class="form__input" type="number" name="phone" placeholder="Ваш номер*">
+         </div>
+         <textarea class="form__input form-textarea" name="text" placeholder="Напишите ваш вопрос"></textarea>
+         <button class="form__button" type="submit">
+          Отправить
+        </button>
+       </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="map-section">
+    <div class="container map-section__container">
+      <h2 class="map-section__title title-section">
+        Наш адрес
+      </h2>
+      <span>Яндекс карта</span>
+      <div class="map" id="map">
+      </div>
+    </div>
+  </section>
+
+</main>
+ <footer class="footer">
+   <div class="container footer__container">
+    <div class="footer-inner">
+      <a class="logo" href="#">
+        <img class="logo__image" src="images/header/logo.svg" alt="logo" width="42" height="42">
+        <span class="logo__text">
+          COMPUTER REPAIR
+        </span>
+      </a>
+      <div class="contacts">
+        <span class="contacts__item contacts__item_pin">
+          Город Люберцы, бульвар Будапештсткая, 79
+        </span>
+        <a class="contacts__item contacts__item_phone" href="tel:966700550220">
+          +966 700 550 220
+        </a>
+        <a class="contacts__item contacts__item_mail" href="#">
+          gropiloippeillo-4757@yopmail.com
+        </a>
+      </div>
+      <div class="social">
+        <a class="social__link" href="#">
+        </a>
+        <a class="social__link social__link_inst" href="#">
+        </a>
+        <a class="social__link social__link_teleg" href="#">
+        </a>
+      </div>
+     </div>
+     <nav class="footer-navigation">
+      <ul class="footer-navigation__list">
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link footer-navigation__link_active" href="#">
+            Главная
+          </a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#about">
+            О нас
+          </a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#serv">
+            Наши услуги
+          </a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#review">
+            Отзывы
+          </a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#works">
+            График работы
+          </a>
+        </li>
+       </ul>
+     </nav>
+     <div class="footer__works">
+      <p>График работы</p>
+      <span>
+        В будние дни с 7:00 до 23:00. 
+      </span>
+      <span>
+        В выходные и праздничные дни с 8:00 до 22:00.
+      </span>
+     </div>
+   </div>
+ </footer>
+ <!--Pop up заказа-->
+ <section class="popup">
+  <div class="popup__wrapper">
+    <h2 class="popup__title">
+      Оставить заявку
+    </h2>
+    <form class="popup__form " action="" method="post" autocomplete="off">
+      <div class="popup__form-label">
+      <input class="popup__form-input" type="text" name="name" placeholder="Ваше имя*">
+      </div>
+      <div class="popup__form-label">
+       <input class="popup__form-input" type="number" name="phone" placeholder="Ваш номер*">
+      </div>
+      <textarea class="popup__form-input popup__form-text" name="text" placeholder="Напишите ваш вопрос"></textarea>
+
+      <button class="popup__form-submit" type="submit">
+       Отправить
+     </button>
+    </form>
+    <button class="popup__close" type="button">
+      <svg class="popup__close-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 24L24 8M8 8L24 24" stroke="#171717" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+ </section>
+
+ <!--Pop up отправки заказа-->
+ <section class="popup popup-success">
+  <div class="popup__wrapper">
+    <h2 class="visually-hidden">
+      Успешная отправка
+    </h2>
+    <img class="popup-success__icon" src="images/succes-icon.svg" alt="icon" width="48" height="48">
+    <p class="popup-success__text">
+     Спасибо, ваша заявка отправлена! Мы свяжемся с вами и ответим на ваши вопросы.
+    </p>
+    <button class="popup__close" type="button">
+      <svg class="popup__close-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 24L24 8M8 8L24 24" stroke="#171717" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+ </section>
+
+ <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=API_KEY"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript">
+ </script>
+ <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ <script src="lib/accordion.min.js"></script>
+
+ <script src="js/main.js" type="module"></script>
+</body>
+</html>
